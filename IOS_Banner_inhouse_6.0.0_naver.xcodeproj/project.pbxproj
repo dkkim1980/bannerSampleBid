@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEFE7B0C25E603F900C5F68B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFE7B0B25E603F900C5F68B /* AppDelegate.m */; };
+		AEFE7B0F25E603F900C5F68B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFE7B0E25E603F900C5F68B /* SceneDelegate.m */; };
+		AEFE7B1225E603F900C5F68B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFE7B1125E603F900C5F68B /* ViewController.m */; };
+		AEFE7B1525E603F900C5F68B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFE7B1325E603F900C5F68B /* Main.storyboard */; };
+		AEFE7B1725E603FA00C5F68B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEFE7B1625E603FA00C5F68B /* Assets.xcassets */; };
+		AEFE7B1A25E603FA00C5F68B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEFE7B1825E603FA00C5F68B /* LaunchScreen.storyboard */; };
+		AEFE7B1D25E603FA00C5F68B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFE7B1C25E603FA00C5F68B /* main.m */; };
+		AEFE7B2725E603FA00C5F68B /* IOS_Banner_inhouse_6_0_0_naverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFE7B2625E603FA00C5F68B /* IOS_Banner_inhouse_6_0_0_naverTests.m */; };
+		AEFE7B3225E603FA00C5F68B /* IOS_Banner_inhouse_6_0_0_naverUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEFE7B3125E603FA00C5F68B /* IOS_Banner_inhouse_6_0_0_naverUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AEFE7B2325E603FA00C5F68B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEFE7AFF25E603F900C5F68B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEFE7B0625E603F900C5F68B;
+			remoteInfo = IOS_Banner_inhouse_6.0.0_naver;
+		};
+		AEFE7B2E25E603FA00C5F68B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AEFE7AFF25E603F900C5F68B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEFE7B0625E603F900C5F68B;
+			remoteInfo = IOS_Banner_inhouse_6.0.0_naver;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AEFE7B0725E603F900C5F68B /* IOS_Banner_inhouse_6.0.0_naver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS_Banner_inhouse_6.0.0_naver.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEFE7B0A25E603F900C5F68B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AEFE7B0B25E603F900C5F68B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AEFE7B0D25E603F900C5F68B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		AEFE7B0E25E603F900C5F68B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		AEFE7B1025E603F900C5F68B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AEFE7B1125E603F900C5F68B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AEFE7B1425E603F900C5F68B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AEFE7B1625E603FA00C5F68B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AEFE7B1925E603FA00C5F68B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AEFE7B1B25E603FA00C5F68B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEFE7B1C25E603FA00C5F68B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AEFE7B2225E603FA00C5F68B /* IOS_Banner_inhouse_6.0.0_naverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOS_Banner_inhouse_6.0.0_naverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEFE7B2625E603FA00C5F68B /* IOS_Banner_inhouse_6_0_0_naverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOS_Banner_inhouse_6_0_0_naverTests.m; sourceTree = "<group>"; };
+		AEFE7B2825E603FA00C5F68B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEFE7B2D25E603FA00C5F68B /* IOS_Banner_inhouse_6.0.0_naverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOS_Banner_inhouse_6.0.0_naverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEFE7B3125E603FA00C5F68B /* IOS_Banner_inhouse_6_0_0_naverUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOS_Banner_inhouse_6_0_0_naverUITests.m; sourceTree = "<group>"; };
+		AEFE7B3325E603FA00C5F68B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AEFE7B0425E603F900C5F68B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEFE7B1F25E603FA00C5F68B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEFE7B2A25E603FA00C5F68B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEFE7AFE25E603F900C5F68B = {
+			isa = PBXGroup;
+			children = (
+				AEFE7B0925E603F900C5F68B /* IOS_Banner_inhouse_6.0.0_naver */,
+				AEFE7B2525E603FA00C5F68B /* IOS_Banner_inhouse_6.0.0_naverTests */,
+				AEFE7B3025E603FA00C5F68B /* IOS_Banner_inhouse_6.0.0_naverUITests */,
+				AEFE7B0825E603F900C5F68B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AEFE7B0825E603F900C5F68B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AEFE7B0725E603F900C5F68B /* IOS_Banner_inhouse_6.0.0_naver.app */,
+				AEFE7B2225E603FA00C5F68B /* IOS_Banner_inhouse_6.0.0_naverTests.xctest */,
+				AEFE7B2D25E603FA00C5F68B /* IOS_Banner_inhouse_6.0.0_naverUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AEFE7B0925E603F900C5F68B /* IOS_Banner_inhouse_6.0.0_naver */ = {
+			isa = PBXGroup;
+			children = (
+				AEFE7B0A25E603F900C5F68B /* AppDelegate.h */,
+				AEFE7B0B25E603F900C5F68B /* AppDelegate.m */,
+				AEFE7B0D25E603F900C5F68B /* SceneDelegate.h */,
+				AEFE7B0E25E603F900C5F68B /* SceneDelegate.m */,
+				AEFE7B1025E603F900C5F68B /* ViewController.h */,
+				AEFE7B1125E603F900C5F68B /* ViewController.m */,
+				AEFE7B1325E603F900C5F68B /* Main.storyboard */,
+				AEFE7B1625E603FA00C5F68B /* Assets.xcassets */,
+				AEFE7B1825E603FA00C5F68B /* LaunchScreen.storyboard */,
+				AEFE7B1B25E603FA00C5F68B /* Info.plist */,
+				AEFE7B1C25E603FA00C5F68B /* main.m */,
+			);
+			path = IOS_Banner_inhouse_6.0.0_naver;
+			sourceTree = "<group>";
+		};
+		AEFE7B2525E603FA00C5F68B /* IOS_Banner_inhouse_6.0.0_naverTests */ = {
+			isa = PBXGroup;
+			children = (
+				AEFE7B2625E603FA00C5F68B /* IOS_Banner_inhouse_6_0_0_naverTests.m */,
+				AEFE7B2825E603FA00C5F68B /* Info.plist */,
+			);
+			path = IOS_Banner_inhouse_6.0.0_naverTests;
+			sourceTree = "<group>";
+		};
+		AEFE7B3025E603FA00C5F68B /* IOS_Banner_inhouse_6.0.0_naverUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AEFE7B3125E603FA00C5F68B /* IOS_Banner_inhouse_6_0_0_naverUITests.m */,
+				AEFE7B3325E603FA00C5F68B /* Info.plist */,
+			);
+			path = IOS_Banner_inhouse_6.0.0_naverUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AEFE7B0625E603F900C5F68B /* IOS_Banner_inhouse_6.0.0_naver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEFE7B3625E603FA00C5F68B /* Build configuration list for PBXNativeTarget "IOS_Banner_inhouse_6.0.0_naver" */;
+			buildPhases = (
+				AEFE7B0325E603F900C5F68B /* Sources */,
+				AEFE7B0425E603F900C5F68B /* Frameworks */,
+				AEFE7B0525E603F900C5F68B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IOS_Banner_inhouse_6.0.0_naver;
+			productName = IOS_Banner_inhouse_6.0.0_naver;
+			productReference = AEFE7B0725E603F900C5F68B /* IOS_Banner_inhouse_6.0.0_naver.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AEFE7B2125E603FA00C5F68B /* IOS_Banner_inhouse_6.0.0_naverTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEFE7B3925E603FA00C5F68B /* Build configuration list for PBXNativeTarget "IOS_Banner_inhouse_6.0.0_naverTests" */;
+			buildPhases = (
+				AEFE7B1E25E603FA00C5F68B /* Sources */,
+				AEFE7B1F25E603FA00C5F68B /* Frameworks */,
+				AEFE7B2025E603FA00C5F68B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEFE7B2425E603FA00C5F68B /* PBXTargetDependency */,
+			);
+			name = IOS_Banner_inhouse_6.0.0_naverTests;
+			productName = IOS_Banner_inhouse_6.0.0_naverTests;
+			productReference = AEFE7B2225E603FA00C5F68B /* IOS_Banner_inhouse_6.0.0_naverTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AEFE7B2C25E603FA00C5F68B /* IOS_Banner_inhouse_6.0.0_naverUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AEFE7B3C25E603FA00C5F68B /* Build configuration list for PBXNativeTarget "IOS_Banner_inhouse_6.0.0_naverUITests" */;
+			buildPhases = (
+				AEFE7B2925E603FA00C5F68B /* Sources */,
+				AEFE7B2A25E603FA00C5F68B /* Frameworks */,
+				AEFE7B2B25E603FA00C5F68B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AEFE7B2F25E603FA00C5F68B /* PBXTargetDependency */,
+			);
+			name = IOS_Banner_inhouse_6.0.0_naverUITests;
+			productName = IOS_Banner_inhouse_6.0.0_naverUITests;
+			productReference = AEFE7B2D25E603FA00C5F68B /* IOS_Banner_inhouse_6.0.0_naverUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AEFE7AFF25E603F900C5F68B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					AEFE7B0625E603F900C5F68B = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					AEFE7B2125E603FA00C5F68B = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = AEFE7B0625E603F900C5F68B;
+					};
+					AEFE7B2C25E603FA00C5F68B = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = AEFE7B0625E603F900C5F68B;
+					};
+				};
+			};
+			buildConfigurationList = AEFE7B0225E603F900C5F68B /* Build configuration list for PBXProject "IOS_Banner_inhouse_6.0.0_naver" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AEFE7AFE25E603F900C5F68B;
+			productRefGroup = AEFE7B0825E603F900C5F68B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AEFE7B0625E603F900C5F68B /* IOS_Banner_inhouse_6.0.0_naver */,
+				AEFE7B2125E603FA00C5F68B /* IOS_Banner_inhouse_6.0.0_naverTests */,
+				AEFE7B2C25E603FA00C5F68B /* IOS_Banner_inhouse_6.0.0_naverUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEFE7B0525E603F900C5F68B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEFE7B1A25E603FA00C5F68B /* LaunchScreen.storyboard in Resources */,
+				AEFE7B1725E603FA00C5F68B /* Assets.xcassets in Resources */,
+				AEFE7B1525E603F900C5F68B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEFE7B2025E603FA00C5F68B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEFE7B2B25E603FA00C5F68B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEFE7B0325E603F900C5F68B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEFE7B1225E603F900C5F68B /* ViewController.m in Sources */,
+				AEFE7B0C25E603F900C5F68B /* AppDelegate.m in Sources */,
+				AEFE7B1D25E603FA00C5F68B /* main.m in Sources */,
+				AEFE7B0F25E603F900C5F68B /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEFE7B1E25E603FA00C5F68B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEFE7B2725E603FA00C5F68B /* IOS_Banner_inhouse_6_0_0_naverTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEFE7B2925E603FA00C5F68B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEFE7B3225E603FA00C5F68B /* IOS_Banner_inhouse_6_0_0_naverUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AEFE7B2425E603FA00C5F68B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEFE7B0625E603F900C5F68B /* IOS_Banner_inhouse_6.0.0_naver */;
+			targetProxy = AEFE7B2325E603FA00C5F68B /* PBXContainerItemProxy */;
+		};
+		AEFE7B2F25E603FA00C5F68B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AEFE7B0625E603F900C5F68B /* IOS_Banner_inhouse_6.0.0_naver */;
+			targetProxy = AEFE7B2E25E603FA00C5F68B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AEFE7B1325E603F900C5F68B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEFE7B1425E603F900C5F68B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AEFE7B1825E603FA00C5F68B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AEFE7B1925E603FA00C5F68B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AEFE7B3425E603FA00C5F68B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AEFE7B3525E603FA00C5F68B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AEFE7B3725E603FA00C5F68B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7K7CDEG4B8;
+				INFOPLIST_FILE = IOS_Banner_inhouse_6.0.0_naver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "testapp.IOS-Banner-inhouse-6-0-0-naver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AEFE7B3825E603FA00C5F68B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7K7CDEG4B8;
+				INFOPLIST_FILE = IOS_Banner_inhouse_6.0.0_naver/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "testapp.IOS-Banner-inhouse-6-0-0-naver";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AEFE7B3A25E603FA00C5F68B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7K7CDEG4B8;
+				INFOPLIST_FILE = IOS_Banner_inhouse_6.0.0_naverTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "testapp.IOS-Banner-inhouse-6-0-0-naverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOS_Banner_inhouse_6.0.0_naver.app/IOS_Banner_inhouse_6.0.0_naver";
+			};
+			name = Debug;
+		};
+		AEFE7B3B25E603FA00C5F68B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7K7CDEG4B8;
+				INFOPLIST_FILE = IOS_Banner_inhouse_6.0.0_naverTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "testapp.IOS-Banner-inhouse-6-0-0-naverTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOS_Banner_inhouse_6.0.0_naver.app/IOS_Banner_inhouse_6.0.0_naver";
+			};
+			name = Release;
+		};
+		AEFE7B3D25E603FA00C5F68B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7K7CDEG4B8;
+				INFOPLIST_FILE = IOS_Banner_inhouse_6.0.0_naverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "testapp.IOS-Banner-inhouse-6-0-0-naverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IOS_Banner_inhouse_6.0.0_naver;
+			};
+			name = Debug;
+		};
+		AEFE7B3E25E603FA00C5F68B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7K7CDEG4B8;
+				INFOPLIST_FILE = IOS_Banner_inhouse_6.0.0_naverUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "testapp.IOS-Banner-inhouse-6-0-0-naverUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IOS_Banner_inhouse_6.0.0_naver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AEFE7B0225E603F900C5F68B /* Build configuration list for PBXProject "IOS_Banner_inhouse_6.0.0_naver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEFE7B3425E603FA00C5F68B /* Debug */,
+				AEFE7B3525E603FA00C5F68B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEFE7B3625E603FA00C5F68B /* Build configuration list for PBXNativeTarget "IOS_Banner_inhouse_6.0.0_naver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEFE7B3725E603FA00C5F68B /* Debug */,
+				AEFE7B3825E603FA00C5F68B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEFE7B3925E603FA00C5F68B /* Build configuration list for PBXNativeTarget "IOS_Banner_inhouse_6.0.0_naverTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEFE7B3A25E603FA00C5F68B /* Debug */,
+				AEFE7B3B25E603FA00C5F68B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AEFE7B3C25E603FA00C5F68B /* Build configuration list for PBXNativeTarget "IOS_Banner_inhouse_6.0.0_naverUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AEFE7B3D25E603FA00C5F68B /* Debug */,
+				AEFE7B3E25E603FA00C5F68B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AEFE7AFF25E603F900C5F68B /* Project object */;
+}
